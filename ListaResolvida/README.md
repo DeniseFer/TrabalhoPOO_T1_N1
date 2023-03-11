@@ -1,1 +1,1 @@
-Criando o readme da pasta lr
+README de ListaResolvida
