@@ -14,7 +14,7 @@ public class Principal {
 		System.out.println("Digite o segundo número positivo e maior que 0: ");
 		double num2 = sc.nextDouble();
 		
-		if (num <= 0 | num2 <= 0) {
+		if (num <= 0 || num2 <= 0) {
 			System.out.println("Os números precisam ser maiores que zero!");}
 		
 		else {
