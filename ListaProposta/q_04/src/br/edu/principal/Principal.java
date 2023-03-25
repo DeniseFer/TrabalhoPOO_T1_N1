@@ -18,7 +18,7 @@ public class Principal {
 		System.out.println("Digite sua segunda nota: ");
 		nota2=sc.nextDouble();
 		
-		pond = nota1*2 + nota2*3 / 5;
+		pond = (nota1*2 + nota2*3) / 5;
 		
 		System.out.println("===========RESULTADOS============");
 		System.out.println ("A media ponderada da primeira nota ("+nota1+") e da segunda nota ("+nota2+") é igual a :"+ new DecimalFormat(".##").format(pond));
