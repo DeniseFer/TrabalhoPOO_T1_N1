@@ -12,7 +12,7 @@ public class Principal {
 		System.out.println("Digite seu ano de nascimento: ");
 		int anoNasc= sc.nextInt();
 		
-		System.out.println("Digite o ano atual em que estamos: ");
+		System.out.println("Digite o ano atual em que está: ");
 		int anoAtual= sc.nextInt();
 		
 		int idade= anoAtual - anoNasc;
