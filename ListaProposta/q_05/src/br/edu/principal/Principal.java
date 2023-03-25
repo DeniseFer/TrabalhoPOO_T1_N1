@@ -7,8 +7,8 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// LISTA PROPOSTA
-		float preço_prod;
-		float novo_preço;
+		float preço_prod = 0.0;
+		float novo_preço = 0.0;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("=====CÁLCULO DO DESCONTO=====");
