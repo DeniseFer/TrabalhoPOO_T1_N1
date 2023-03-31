@@ -24,7 +24,7 @@ public class Principal {
 		distan = sc.nextDouble();
 		
 		radiano = ang * 3.14 /180;
-		escada = distan / Math.sin(radiano);
+		escada = distan / Math.cos(radiano);
 		
 		System.out.println("A medida da escada é igual a " + new DecimalFormat(".##").format(escada) + "m");
 		
